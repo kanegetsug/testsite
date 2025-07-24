@@ -117,3 +117,84 @@ nav a {
   background: #f1f1f1;
   font-size: 14px;
 }
+
+/* Teacher directory grid */
+.teacher-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin: 40px 0;
+}
+.teacher-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+  padding: 20px;
+  text-align: center;
+  width: 280px;
+}
+.teacher-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.teacher-card h3 {
+  margin: 10px 0;
+}
+.cta-small {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #6C30FF;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+.cta-small:hover {
+  background: #5b27e6;
+}
+
+/* Profile page layout */
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+  margin: 40px 0;
+}
+.profile-photo {
+  width: 200px;
+  border-radius: 12px;
+}
+.profile-info {
+  flex: 1;
+}
+.apply-form {
+  display: grid;
+  gap: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+}
+.apply-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+.apply-form input {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Hero adjustments for sub-pages */
+.hero-text h1 {
+  font-size: 40px;
+}
+.hero-text p {
+  font-size: 18px;
+}
