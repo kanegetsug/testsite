@@ -1,63 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apply to Teach | ROYAL</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <title>Apply to Teach</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  
-  <header class="site-header">
-    <div class="container header-flex">
-      <a href="index.html"><img src="assets/images/logo.png" alt="ROYAL Logo" class="logo" /></a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="teachers.html">Teachers</a>
-        <a href="apply.html">Apply</a>
-      </nav>
-    </div>
+  <header class="container">
+    <div class="logo-placeholder"></div>
+    <nav class="nav">
+      <a href="index.html">Home</a><a href="teachers.html">Teachers</a><a href="apply.html">Apply</a>
+    </nav>
   </header>
-
-
-  <section class="hero">
-    <div class="container hero-text">
-      <h1>Join ROYAL as a Teacher</h1>
-      <p>Share your passion and expertise with students worldwide.</p>
-    </div>
+  <section class="hero container">
+    <h1>Apply to Teach</h1>
   </section>
-
   <section class="container">
-    <form name="apply" method="POST" data-netlify="true" class="apply-form">
-      <h2>Apply to Teach</h2>
-      <label>
-        Full Name
-        <input type="text" name="name" required>
-      </label>
-      <label>
-        Email
-        <input type="email" name="email" required>
-      </label>
-      <label>
-        Instruments & Expertise
-        <input type="text" name="instruments" placeholder="e.g. Classical Guitar, Voice" required>
-      </label>
-      <label>
-        Years Teaching / Performance Experience
-        <input type="text" name="experience" required>
-      </label>
-      <label>
-        PayPal Payout Email
-        <input type="email" name="paypal_email" placeholder="you@paypal.com" required>
-      </label>
-      <button type="submit" class="cta">Submit Application</button>
+    <form class="apply-form">
+      <input placeholder="Full Name"><input placeholder="Email"><input placeholder="Instruments"><input placeholder="Experience"><input placeholder="PayPal Email"><button>Submit</button>
     </form>
   </section>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 ROYAL. Built for musicians, by musicians.</p>
-    </div>
+  <footer class="container">
+    <p>© 2025 ROYAL</p>
   </footer>
 </body>
 </html>

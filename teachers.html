@@ -4,56 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Browse Teachers | ROYAL</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <title>Teachers Directory</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-flex">
-      <a href="index.html"><img src="assets/images/logo.png" alt="ROYAL Logo" class="logo"></a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a class="active" href="teachers.html">Teachers</a>
-        <a href="apply.html">Apply</a>
-      </nav>
-    </div>
+  <header class="container">
+    <div class="logo-placeholder"></div>
+    <nav class="nav">
+      <a href="index.html">Home</a><a href="teachers.html">Teachers</a><a href="apply.html">Apply</a>
+    </nav>
   </header>
-
-  <section class="hero">
-    <div class="container hero-text">
-      <h1>Meet Our Teachers</h1>
-      <p>Expert musicians ready to guide your musical journey.</p>
-      <a href="apply.html" class="cta">Become a Teacher</a>
-    </div>
-  </section>
-
   <section class="container teacher-section">
-    <input type="text" id="search" placeholder="Search by name or instrument…" class="search-input">
+    <input class="search" placeholder="Search by name or instrument…">
     <div class="teacher-grid">
-      <div class="teacher-card">
-        <img src="assets/images/example-photo.jpg" alt="Kane Getsug">
-        <h3>Kane Getsug</h3>
-        <p>Classical Guitar, Composition</p>
-        <a href="teachers/example-teacher.html" class="cta-small">View Profile</a>
-      </div>
-      <!-- Add more .teacher-card blocks here -->
+      <div class="teacher-card"><div class="photo-placeholder"></div><h3>Teacher Name</h3></div>
+      <div class="teacher-card"><div class="photo-placeholder"></div><h3>Teacher Name</h3></div>
+      <div class="teacher-card"><div class="photo-placeholder"></div><h3>Teacher Name</h3></div>
     </div>
   </section>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2025 ROYAL. Built for musicians, by musicians.</p>
-    </div>
+  <footer class="container">
+    <p>© 2025 ROYAL</p>
   </footer>
-
-  <script>
-    document.getElementById('search').addEventListener('input', function() {
-      const filter = this.value.toLowerCase();
-      document.querySelectorAll('.teacher-card').forEach(card => {
-        const text = card.textContent.toLowerCase();
-        card.style.display = text.includes(filter) ? 'block' : 'none';
-      });
-    });
-  </script>
 </body>
 </html>

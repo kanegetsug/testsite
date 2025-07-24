@@ -1,0 +1,25 @@
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; color: #333; background: #fff; }
+.container { width: 90%; max-width: 1200px; margin: auto; }
+header, section, footer { border: 1px solid #ccc; padding: 20px; margin: 10px 0; }
+header .logo-placeholder { display: inline-block; width: 120px; height: 30px; background: #eee; }
+header .nav { display: inline-block; float: right; }
+header .nav a { margin-left: 15px; color: #333; text-decoration: none; }
+.hero { display: flex; justify-content: space-between; align-items: center; }
+.hero .text { width: 60%; }
+.hero .video-placeholder { width: 35%; height: 200px; background: #eee; }
+.features { display: flex; gap: 10px; }
+.feature { flex: 1; height: 100px; background: #eee; }
+.testimonials { display: flex; gap: 10px; margin-top: 20px; }
+.testimonial { flex: 1; height: 80px; background: #eee; }
+.teacher-section .search { width: 100%; padding: 10px; border: 1px solid #ccc; margin-bottom: 15px; }
+.teacher-grid { display: flex; flex-wrap: wrap; gap: 15px; }
+.teacher-card { flex: 1 1 calc(33.333% - 15px); border: 1px solid #ccc; padding: 10px; text-align: center; }
+.teacher-card .photo-placeholder { width: 100%; height: 150px; background: #eee; margin-bottom: 10px; }
+.profile { display: flex; gap: 20px; }
+.profile-photo { width: 200px; height: 200px; background: #eee; }
+.profile-info { flex: 1; }
+.apply-form { display: grid; gap: 15px; }
+.apply-form input { padding: 8px; border: 1px solid #ccc; }
+.apply-form button { padding: 10px; background: #eee; border: 1px solid #ccc; }
